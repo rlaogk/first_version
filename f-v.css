@@ -119,3 +119,57 @@ body{
     margin-bottom: 20px;
     border-bottom: 1px solid black;
 }
+
+
+
+@media screen and (max-width:600px){
+    .header{
+        display: block;
+        width: 430px;
+        margin-left: 30px;
+    }
+    .header .title{
+        text-align: center;
+        font-size: 23px;
+    }
+    .header .nav{
+        position: relative;
+        left: 3px;
+        top: 15px;
+    }
+    .header .icon{
+        text-align: right;
+    }
+    .section{
+        display: block;
+        width: 430px;
+        margin-left: 30px;
+    }
+    .footer{
+        padding-top: 20px;
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-header > p{
+        font-size: 16px;
+    }
+    .footer-section{
+        margin-top: 30px;
+    }
+    .footer-section > a{
+        font-size: 18px;
+    }
+    .footer-footer > a{
+        font-size: 13px;
+    }
+    .footer > span{
+        font-size: 13px;
+    }
+    .footer > span > p{
+        font-size: 13px;
+    }
+
+}
